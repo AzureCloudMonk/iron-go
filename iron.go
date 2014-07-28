@@ -1,3 +1,4 @@
+// Package iron is a Go implementation of the Iron library.
 package iron
 
 import (
