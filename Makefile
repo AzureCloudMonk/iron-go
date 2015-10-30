@@ -6,7 +6,7 @@ VENDOR := $(ROOT)/vendor
 GOPATH := "$(VENDOR):$(GOPATH)"
 
 PREFIX := github.com/kitcambridge/iron-go
-DEPS := code.google.com/p/go.crypto/pbkdf2
+DEPS := golang.org/x/crypto/pbkdf2
 
 fetch:
 	mkdir -p $(VENDOR)
