@@ -1,7 +1,6 @@
 package iron
 
 import (
-	"code.google.com/p/go.crypto/pbkdf2"
 	"crypto/aes"
 	"crypto/cipher"
 	"crypto/hmac"
@@ -10,6 +9,7 @@ import (
 	"crypto/sha256"
 	"encoding/hex"
 	"errors"
+	"golang.org/x/crypto/pbkdf2"
 	"io"
 )
 
